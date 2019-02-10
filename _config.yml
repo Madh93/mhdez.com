@@ -1,0 +1,9 @@
+# Site settings
+title: Miguel Hernández
+position: Computer Engineer
+email: me@mhdez.com
+username: Madh93
+linkedin_username: migueldhdez
+
+# Build settings
+markdown: kramdown
