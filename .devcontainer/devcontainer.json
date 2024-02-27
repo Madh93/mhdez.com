@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
+{
+	"name": "madh93-gitlab-io",
+	"runArgs": [
+		"--name",
+		"devcontainer_madh93-gitlab-io"
+	],
+	"image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+	"postStartCommand": "bundle exec jekyll serve --livereload"
+}
